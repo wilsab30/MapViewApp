@@ -13,6 +13,8 @@
 		ECF9E7511E1ED234003125FE /* MapViewApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECF9E74F1E1ED234003125FE /* MapViewApp.xcdatamodeld */; };
 		ECF9E7531E1ED234003125FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF9E7521E1ED234003125FE /* Assets.xcassets */; };
 		ECF9E7561E1ED234003125FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF9E7541E1ED234003125FE /* LaunchScreen.storyboard */; };
+		ECF9E75F1E1EE1A4003125FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF9E75E1E1EE1A4003125FE /* MapKit.framework */; };
+		ECF9E7611E1EF5BE003125FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF9E7601E1EF5BE003125FE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ECF9E7521E1ED234003125FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF9E7551E1ED234003125FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF9E7571E1ED234003125FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF9E75E1E1EE1A4003125FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ECF9E7601E1EF5BE003125FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF9E7611E1EF5BE003125FE /* CoreLocation.framework in Frameworks */,
+				ECF9E75F1E1EE1A4003125FE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				ECF9E7471E1ED234003125FE /* MapViewApp */,
 				ECF9E7461E1ED234003125FE /* Products */,
+				ECF9E75D1E1EE1A4003125FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +72,15 @@
 				ECF9E74F1E1ED234003125FE /* MapViewApp.xcdatamodeld */,
 			);
 			path = MapViewApp;
+			sourceTree = "<group>";
+		};
+		ECF9E75D1E1EE1A4003125FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF9E7601E1EF5BE003125FE /* CoreLocation.framework */,
+				ECF9E75E1E1EE1A4003125FE /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +282,7 @@
 				DEVELOPMENT_TEAM = J5EPXUD2ER;
 				INFOPLIST_FILE = MapViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.MapViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TimeandDate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +295,7 @@
 				DEVELOPMENT_TEAM = J5EPXUD2ER;
 				INFOPLIST_FILE = MapViewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.MapViewApp;
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TimeandDate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
